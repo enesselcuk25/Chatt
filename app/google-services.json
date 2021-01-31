@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "29926229990",
+    "project_id": "chattapp-858a3",
+    "storage_bucket": "chattapp-858a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29926229990:android:906c8683b481073dfd3827",
+        "android_client_info": {
+          "package_name": "com.enes.chattapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29926229990-2h61iv1i4u16cgokq6v0vksavk03l4bp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_Vw6cGrtggdeZ9PsnAsgfOWJO8r1ZiWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29926229990-2h61iv1i4u16cgokq6v0vksavk03l4bp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

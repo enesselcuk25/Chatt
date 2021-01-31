@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    android:orientation="vertical"
+    tools:context=".activity.loginUpActivity">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_margin="5dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+
+        app:cardCornerRadius="100dp"
+
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#5D4037"
+            android:orientation="vertical">
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/input_layout_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                >
+                <EditText
+                    android:id="@+id/edittextemail"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:background="#5D4037"
+
+                    android:hint="kullanıcı e-mail adresi "
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:layout_marginTop="250dp"
+                    android:layout_gravity="center"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/input_layout_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/edittextparola"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:background="#5D4037"
+                    android:textStyle="bold"
+                    android:layout_marginTop="50dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:hint="parola "
+                    android:layout_gravity="center"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+            <Button
+                android:id="@+id/buttonloginup"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="kayıt ol"
+                android:background="@android:drawable/toast_frame"
+                android:layout_marginTop="100dp"
+
+                android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

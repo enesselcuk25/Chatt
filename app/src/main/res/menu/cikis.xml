@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bildirimler"
+        android:icon="@drawable/bildirim"
+        android:title="bildirim"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_cikis"
+        android:icon="@drawable/exit_to_app"
+        android:title="cikis"
+        app:showAsAction="always" />
+
+</menu>

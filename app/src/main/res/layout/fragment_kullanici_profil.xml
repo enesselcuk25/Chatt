@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#212121"
+    tools:context=".fragment.kullaniciProfilFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <LinearLayout
+            android:id="@+id/linerlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+             >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/profile"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#212121"/>
+
+            <Button
+                android:id="@+id/ButtonTakipcileri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-105dp"
+                android:backgroundTint="#212121"
+                android:text="0"
+                android:layout_marginLeft="300dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arkadaş"
+                android:layout_marginLeft="190dp"
+                android:textSize="18dp"
+                android:textColor="#FFFFFF"/>
+
+
+            <Button
+                android:id="@+id/buttonArkdaslar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-72dp"
+                android:backgroundTint="#212121"
+                android:text="0"
+                android:layout_marginLeft="180dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Takipçi"
+                android:layout_marginLeft="310dp"
+                android:textSize="18dp"
+                android:textColor="#FFFFFF"/>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#FFFFFF"
+                android:layout_marginTop="10dp"
+                >
+
+
+                <EditText
+                    android:id="@+id/edittextname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:textColor="#FFFFFF"
+                    android:hint="isim ve soyisim"
+                    android:background="#212121"
+
+
+                    android:layout_marginTop="100dp"
+                    />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColorHint="#FFFFFF"
+                >
+
+                <EditText
+                    android:id="@+id/edittext_hakkimda"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#212121"
+                    android:textColor="#FFFFFF"
+                    android:hint="Hakkımda "/>
+
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColorHint="#FFFFFF"
+                >
+
+                <EditText
+                    android:id="@+id/edittext_egitim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#212121"
+                    android:textColor="#FFFFFF"
+                    android:hint="Eğitim"/>
+
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColorHint="#FFFFFF"
+                >
+
+                <EditText
+                    android:id="@+id/edittext_dogumtarihi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#212121"
+                    android:textColor="#FFFFFF"
+                    android:hint="Doğum Tarihi"/>
+
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/buttonkaydet"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:text="kaydet"
+                android:background="@android:drawable/toast_frame"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>
